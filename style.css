@@ -1,0 +1,190 @@
+*
+{
+ margin:0;
+ padding:0;
+}
+
+header
+{
+  background-image: url(Img1.jpg);
+  height:100vh;
+  background-size:cover;
+  background-position:center;
+}   
+
+ul{
+ color: white;
+ float:right;
+ list-style-type:none;
+ margin:30px; 
+}
+ 
+ul li{
+display: inline-block;
+}
+
+ul li a{  
+  text-decoration: none;
+  color: #fff;
+  padding:10px 25px;
+  border: 1px solid transparent;
+  transition:0.6s ease;
+}
+  
+ul li a:hover{
+  background-color:black;
+  color: #000;
+}  
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}  
+
+.title
+{
+ position:absolute;
+ top: 60%;
+ left: 65%;
+ transform :translate(-50%-50%);
+} 
+
+.title h1{
+  color: #C71585;
+  font-size:70px;
+} 
+
+.loginbox{
+ width:400px;
+ height:500px;
+ background:#fff;
+ color:#000;
+ top:50%;
+ left:50%;
+ position:absolute;
+ transform: translate(-50%,-50%);
+ box-sizing:border-box;
+ padding:70px 30px;
+} 
+
+.avatar{
+ width:100px;
+ height:100px;
+ border-radius:50%;
+ position:absolute;
+ top:-50px;
+ left:calc(50% - 50px);
+ }
+ 
+h1{
+ margin:0;
+ padding:0 0 20px;
+ text-align:center:
+ font-size:22px;
+} 
+
+.loginbox p{
+  margin:0;
+  padding:0;
+}
+
+.loginbox input{
+ width:100px;
+ margin-botton:20px;
+}
+
+.loginbox input[type="text"],input[type="password"]
+{
+ border:none;
+ border-botton:1px solid #fff;
+ background:transparent;
+ outline:none;
+ height:40px;
+ }
+
+ul2{
+ color: black;
+ background-color:none;
+ float:right;
+ list-style-type:none;
+ margin:20px; 
+}
+ 
+ul2 li{
+display: inline-block;
+}
+
+ul2 li a{  
+  text-decoration: none;
+  color: black;
+  background-color:none;
+  padding:10px 20px;
+  border: 1px solid transparent;
+}
+  
+ul2 li a:hover{
+  background-color: green;
+  color: black;
+}  
+
+ul2 li.active a{
+  background-color: white;
+  color: black;
+}  
+
+.sign
+{
+ position:absolute;
+ top: 88%;
+ left: 0%;
+ transform :translate(-50%-50%);
+} 
+
+.sign h1{
+  color: blue;
+  font-size:80px;
+} 
+
+ul3{
+ color: blue;
+ font:10px;
+ background-color:none;
+ float:right;
+ list-style-type:none;
+ margin:20px; 
+}
+ 
+ul3 li{
+display: inline-block;
+}
+
+ul3 li a{  
+  text-decoration: none;
+  color: black;
+  background-color:none;
+  padding:5px 10px;
+  border: 1px solid transparent;
+}
+  
+ul3 li a:hover{
+  background-color: blue;
+  color: white;
+}  
+
+ul3 li.active a{
+  background-color: white;
+  color: blue;
+}  
+
+.forgot
+{
+ position:absolute;
+ top: 78%;
+ left: 50%;
+ transform :translate(-50%-50%);
+} 
+
+.forgot h1{
+  color: blue;
+  font-size:5px;
+} 
